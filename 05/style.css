@@ -1,3 +1,52 @@
 article {
-    background:  #0000;;
+    background:  rgb(12, 172, 6);
+    display: grid;
+    grid-row-gap: 10px;
 }
+
+header {
+    background: #6b3503;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 7px solid black;     
+}
+
+section.sources {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: thick solid black;
+}
+
+
+section.main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.oTolkien {
+    float: left;
+    max-width: 400px;
+    max-height: 350px;
+    padding-right: 10px;
+}
+
+
+img.yTolkien {
+    max-width: 225px;
+    max-height: 275px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    }
+
+figcaption {
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    padding: 5px;
+        
+}
+
